@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="272dp">
+
+        <ImageView
+            android:id="@+id/imagenProducto"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="75dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/textoProducto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="80dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textoMarca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textoProducto"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="10dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textoPuntuacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textoMarca"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="20dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textoCalificacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textoPuntuacion"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="10dp"
+            android:text="TextView" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="458dp">
+
+        <TextView
+            android:id="@+id/textProteina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textSal"
+            android:layout_alignEnd="@+id/textSal"
+            android:layout_marginTop="40dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/texttttt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView8"
+            android:layout_alignStart="@+id/textView8"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="40dp"
+            android:text="Proteina" />
+
+        <TextView
+            android:id="@+id/textValorEnergia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView6"
+            android:layout_alignEnd="@+id/textAzucar"
+            android:layout_marginTop="-4dp"
+            android:layout_marginEnd="1dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textAzucar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView4"
+            android:layout_alignEnd="@+id/text100"
+            android:layout_marginTop="-4dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView7"
+            android:layout_alignStart="@+id/textInfo"
+            android:layout_marginTop="40dp"
+            android:text="Sal" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView6"
+            android:layout_alignStart="@+id/textInfo"
+            android:layout_marginTop="40dp"
+            android:text="Grasas Saturadas" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView4"
+            android:layout_alignStart="@+id/textInfo"
+            android:layout_marginTop="40dp"
+            android:text="Valor Energético" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textInfo"
+            android:layout_alignStart="@+id/textInfo"
+            android:layout_marginTop="40dp"
+            android:text="Azúcar" />
+
+        <TextView
+            android:id="@+id/textInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="80dp"
+            android:text="Información Nutricioinal" />
+
+        <TextView
+            android:id="@+id/text100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="Por 100 ml/gr" />
+
+        <TextView
+            android:id="@+id/textGrasa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textValorEnergia"
+            android:layout_alignEnd="@+id/textValorEnergia"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="0dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textSal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textGrasa"
+            android:layout_alignEnd="@+id/textGrasa"
+            android:layout_marginTop="40dp"
+            android:text="TextView" />
+    </RelativeLayout>
+
+</LinearLayout>
