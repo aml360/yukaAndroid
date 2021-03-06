@@ -1,4 +1,4 @@
-package com.example.yuka;
+package com.example.yukaaaa;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.yuka", appContext.getPackageName());
+        assertEquals("com.example.yukaaaa", appContext.getPackageName());
     }
 }

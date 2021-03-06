@@ -1,4 +1,4 @@
-package com.example.yuka;
+package com.example.yukaaaa;
 
 import org.junit.Test;
 

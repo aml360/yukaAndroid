@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "137064301150",
+    "firebase_url": "https://fir-yuka-default-rtdb.firebaseio.com",
+    "project_id": "fir-yuka",
+    "storage_bucket": "fir-yuka.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137064301150:android:b4085c5696928a0546aacf",
+        "android_client_info": {
+          "package_name": "com.example.yukaaaa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137064301150-o5cll3inolkq5kd7cv6gv18m92pbu7lq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD_jGtbn_mH0l8XEhOFi2x4tearOrMDY0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "137064301150-o5cll3inolkq5kd7cv6gv18m92pbu7lq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
